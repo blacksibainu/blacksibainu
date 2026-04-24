@@ -1,0 +1,196 @@
+<svg width="860" height="820" viewBox="0 0 860 820" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .bg { fill: #0d1117; }
+      .title { font-family: monospace; font-size: 12px; fill: #00d4ff; font-weight: 700; letter-spacing: 3px; }
+      .cat { font-family: monospace; font-size: 10px; fill: #7b8ab8; font-weight: 600; letter-spacing: 2px; }
+      .lang { font-family: monospace; font-size: 12px; fill: #c9d1d9; font-weight: 600; }
+      .pct { font-family: monospace; font-size: 11px; fill: #7b8ab8; }
+    </style>
+    <filter id="glow"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+
+    <!-- Gradients -->
+    <linearGradient id="g-js" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#F7DF1E"/><stop offset="100%" stop-color="#f0a500"/></linearGradient>
+    <linearGradient id="g-ts" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#3178C6"/><stop offset="100%" stop-color="#60a5fa"/></linearGradient>
+    <linearGradient id="g-node" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#339933"/><stop offset="100%" stop-color="#86efac"/></linearGradient>
+    <linearGradient id="g-next" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#ffffff"/><stop offset="100%" stop-color="#aaaaaa"/></linearGradient>
+    <linearGradient id="g-react" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#61DAFB"/><stop offset="100%" stop-color="#00b4d8"/></linearGradient>
+    <linearGradient id="g-html" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#E34F26"/><stop offset="100%" stop-color="#f97316"/></linearGradient>
+    <linearGradient id="g-godot" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#478CBF"/><stop offset="100%" stop-color="#7dd3fc"/></linearGradient>
+    <linearGradient id="g-java" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#f89820"/><stop offset="100%" stop-color="#ea580c"/></linearGradient>
+    <linearGradient id="g-python" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#3776AB"/><stop offset="100%" stop-color="#FFD43B"/></linearGradient>
+    <linearGradient id="g-cpp" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#00599C"/><stop offset="100%" stop-color="#0ea5e9"/></linearGradient>
+    <linearGradient id="g-electron" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#47848F"/><stop offset="100%" stop-color="#67e8f9"/></linearGradient>
+    <linearGradient id="g-bash" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#4EAA25"/><stop offset="100%" stop-color="#86efac"/></linearGradient>
+  </defs>
+
+  <!-- BG -->
+  <rect width="860" height="820" rx="14" class="bg"/>
+  <rect x="1" y="1" width="858" height="818" rx="13" fill="none" stroke="#00d4ff" stroke-width="0.4" opacity="0.25"/>
+
+  <!-- Header -->
+  <rect x="20" y="18" width="820" height="42" rx="7" fill="#161b22"/>
+  <text x="430" y="45" text-anchor="middle" class="title">⚡  SKILLS  &amp;  PROFICIENCY</text>
+
+  <!-- Scan line -->
+  <rect x="20" y="18" width="820" height="2" rx="1" fill="#00d4ff" opacity="0.5">
+    <animate attributeName="y" values="20;778;20" dur="5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.5;0;0.5" dur="5s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Pulse dot -->
+  <circle cx="820" cy="39" r="4" fill="#00ff88"><animate attributeName="opacity" values="1;0.2;1" dur="2s" repeatCount="indefinite"/></circle>
+  <circle cx="820" cy="39" r="9" fill="none" stroke="#00ff88" stroke-width="1" opacity="0.3"><animate attributeName="r" values="4;14;4" dur="2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.3;0;0.3" dur="2s" repeatCount="indefinite"/></circle>
+
+  <!-- ═══ SECTION: LANGUAGES ═══ -->
+  <text x="40" y="90" class="cat">▸  LANGUAGES</text>
+  <line x1="160" y1="84" x2="840" y2="84" stroke="#00d4ff" stroke-width="0.3" opacity="0.2"/>
+
+  <!-- JS 100% -->
+  <text x="40" y="118" class="lang">🟡 JavaScript</text>
+  <text x="810" y="118" class="pct" text-anchor="end">100%</text>
+  <rect x="220" y="107" width="580" height="10" rx="5" fill="#161b22"/>
+  <rect x="220" y="107" width="0" height="10" rx="5" fill="url(#g-js)" filter="url(#glow)"><animate attributeName="width" from="0" to="580" dur="1s" begin="0.1s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/></rect>
+
+  <!-- TS 95% -->
+  <text x="40" y="148" class="lang">📘 TypeScript</text>
+  <text x="810" y="148" class="pct" text-anchor="end">95%</text>
+  <rect x="220" y="137" width="580" height="10" rx="5" fill="#161b22"/>
+  <rect x="220" y="137" width="0" height="10" rx="5" fill="url(#g-ts)" filter="url(#glow)"><animate attributeName="width" from="0" to="551" dur="1s" begin="0.2s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/></rect>
+
+  <!-- HTML/CSS 100% -->
+  <text x="40" y="178" class="lang">🌐 HTML / CSS</text>
+  <text x="810" y="178" class="pct" text-anchor="end">100%</text>
+  <rect x="220" y="167" width="580" height="10" rx="5" fill="#161b22"/>
+  <rect x="220" y="167" width="0" height="10" rx="5" fill="url(#g-html)" filter="url(#glow)"><animate attributeName="width" from="0" to="580" dur="1s" begin="0.3s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/></rect>
+
+  <!-- Python -->
+  <text x="40" y="208" class="lang">🐍 Python</text>
+  <text x="810" y="208" class="pct" text-anchor="end">70%</text>
+  <rect x="220" y="197" width="580" height="10" rx="5" fill="#161b22"/>
+  <rect x="220" y="197" width="0" height="10" rx="5" fill="url(#g-python)" filter="url(#glow)"><animate attributeName="width" from="0" to="406" dur="1s" begin="0.4s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/></rect>
+
+  <!-- Java 85% -->
+  <text x="40" y="238" class="lang">☕ Java</text>
+  <text x="810" y="238" class="pct" text-anchor="end">85%</text>
+  <rect x="220" y="227" width="580" height="10" rx="5" fill="#161b22"/>
+  <rect x="220" y="227" width="0" height="10" rx="5" fill="url(#g-java)" filter="url(#glow)"><animate attributeName="width" from="0" to="493" dur="1s" begin="0.5s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/></rect>
+
+  <!-- C++ 10% -->
+  <text x="40" y="268" class="lang">⚙️  C++</text>
+  <text x="810" y="268" class="pct" text-anchor="end">10%</text>
+  <rect x="220" y="257" width="580" height="10" rx="5" fill="#161b22"/>
+  <rect x="220" y="257" width="0" height="10" rx="5" fill="url(#g-cpp)" filter="url(#glow)"><animate attributeName="width" from="0" to="58" dur="1s" begin="0.6s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/></rect>
+
+  <!-- Bash/PS -->
+  <text x="40" y="298" class="lang">💻 Bash / PowerShell</text>
+  <text x="810" y="298" class="pct" text-anchor="end">75%</text>
+  <rect x="220" y="287" width="580" height="10" rx="5" fill="#161b22"/>
+  <rect x="220" y="287" width="0" height="10" rx="5" fill="url(#g-bash)" filter="url(#glow)"><animate attributeName="width" from="0" to="435" dur="1s" begin="0.7s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/></rect>
+
+  <!-- ═══ SECTION: FRAMEWORKS ═══ -->
+  <text x="40" y="340" class="cat">▸  FRAMEWORKS  &amp;  RUNTIMES</text>
+  <line x1="270" y1="334" x2="840" y2="334" stroke="#00d4ff" stroke-width="0.3" opacity="0.2"/>
+
+  <!-- Node.js -->
+  <text x="40" y="368" class="lang">🟢 Node.js</text>
+  <text x="810" y="368" class="pct" text-anchor="end">100%</text>
+  <rect x="220" y="357" width="580" height="10" rx="5" fill="#161b22"/>
+  <rect x="220" y="357" width="0" height="10" rx="5" fill="url(#g-node)" filter="url(#glow)"><animate attributeName="width" from="0" to="580" dur="1s" begin="0.8s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/></rect>
+
+  <!-- Next.js -->
+  <text x="40" y="398" class="lang">▲  Next.js</text>
+  <text x="810" y="398" class="pct" text-anchor="end">100%</text>
+  <rect x="220" y="387" width="580" height="10" rx="5" fill="#161b22"/>
+  <rect x="220" y="387" width="0" height="10" rx="5" fill="url(#g-next)" filter="url(#glow)"><animate attributeName="width" from="0" to="580" dur="1s" begin="0.9s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/></rect>
+
+  <!-- React 95% -->
+  <text x="40" y="428" class="lang">⚛️  React</text>
+  <text x="810" y="428" class="pct" text-anchor="end">95%</text>
+  <rect x="220" y="417" width="580" height="10" rx="5" fill="#161b22"/>
+  <rect x="220" y="417" width="0" height="10" rx="5" fill="url(#g-react)" filter="url(#glow)"><animate attributeName="width" from="0" to="551" dur="1s" begin="1.0s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/></rect>
+
+  <!-- Electron 35% -->
+  <text x="40" y="458" class="lang">🖥️  Electron</text>
+  <text x="810" y="458" class="pct" text-anchor="end">35%</text>
+  <rect x="220" y="447" width="580" height="10" rx="5" fill="#161b22"/>
+  <rect x="220" y="447" width="0" height="10" rx="5" fill="url(#g-electron)" filter="url(#glow)"><animate attributeName="width" from="0" to="203" dur="1s" begin="1.1s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/></rect>
+
+  <!-- Godot 90% -->
+  <text x="40" y="488" class="lang">🎮 Godot / GDScript</text>
+  <text x="810" y="488" class="pct" text-anchor="end">90%</text>
+  <rect x="220" y="477" width="580" height="10" rx="5" fill="#161b22"/>
+  <rect x="220" y="477" width="0" height="10" rx="5" fill="url(#g-godot)" filter="url(#glow)"><animate attributeName="width" from="0" to="522" dur="1s" begin="1.2s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/></rect>
+
+  <!-- ═══ SECTION: DOMAINS ═══ -->
+  <text x="40" y="535" class="cat">▸  DOMAINS  &amp;  EXPERTISE</text>
+  <line x1="245" y1="529" x2="840" y2="529" stroke="#00d4ff" stroke-width="0.3" opacity="0.2"/>
+
+  <!-- Domain badges -->
+  <!-- Web Dev -->
+  <rect x="40" y="548" width="140" height="32" rx="6" fill="#161b22" stroke="#00d4ff" stroke-width="0.5" opacity="0.8"/>
+  <text x="110" y="569" text-anchor="middle" font-family="monospace" font-size="11" fill="#00d4ff">🌐 Web Dev</text>
+
+  <!-- Mobile -->
+  <rect x="192" y="548" width="130" height="32" rx="6" fill="#161b22" stroke="#61DAFB" stroke-width="0.5" opacity="0.8"/>
+  <text x="257" y="569" text-anchor="middle" font-family="monospace" font-size="11" fill="#61DAFB">📱 Mobile</text>
+
+  <!-- Desktop -->
+  <rect x="334" y="548" width="130" height="32" rx="6" fill="#161b22" stroke="#47848F" stroke-width="0.5" opacity="0.8"/>
+  <text x="399" y="569" text-anchor="middle" font-family="monospace" font-size="11" fill="#47848F">🖥️ Desktop</text>
+
+  <!-- Game Dev -->
+  <rect x="476" y="548" width="130" height="32" rx="6" fill="#161b22" stroke="#478CBF" stroke-width="0.5" opacity="0.8"/>
+  <text x="541" y="569" text-anchor="middle" font-family="monospace" font-size="11" fill="#478CBF">🎮 Game Dev</text>
+
+  <!-- CyberSec -->
+  <rect x="618" y="548" width="140" height="32" rx="6" fill="#161b22" stroke="#ff4444" stroke-width="0.5" opacity="0.8"/>
+  <text x="688" y="569" text-anchor="middle" font-family="monospace" font-size="11" fill="#ff4444">🔐 CyberSec</text>
+
+  <!-- Row 2 -->
+  <!-- Telegram Bots -->
+  <rect x="40" y="592" width="160" height="32" rx="6" fill="#161b22" stroke="#2CA5E0" stroke-width="0.5" opacity="0.8"/>
+  <text x="120" y="613" text-anchor="middle" font-family="monospace" font-size="11" fill="#2CA5E0">🤖 Telegram Bots</text>
+
+  <!-- Automation -->
+  <rect x="212" y="592" width="140" height="32" rx="6" fill="#161b22" stroke="#00ff88" stroke-width="0.5" opacity="0.8"/>
+  <text x="282" y="613" text-anchor="middle" font-family="monospace" font-size="11" fill="#00ff88">⚙️ Automation</text>
+
+  <!-- Parsing -->
+  <rect x="364" y="592" width="130" height="32" rx="6" fill="#161b22" stroke="#f59e0b" stroke-width="0.5" opacity="0.8"/>
+  <text x="429" y="613" text-anchor="middle" font-family="monospace" font-size="11" fill="#f59e0b">🕷️ Parsing</text>
+
+  <!-- AI Tools -->
+  <rect x="506" y="592" width="120" height="32" rx="6" fill="#161b22" stroke="#a855f7" stroke-width="0.5" opacity="0.8"/>
+  <text x="566" y="613" text-anchor="middle" font-family="monospace" font-size="11" fill="#a855f7">🧠 AI Tools</text>
+
+  <!-- Freelance -->
+  <rect x="638" y="592" width="120" height="32" rx="6" fill="#161b22" stroke="#00d4ff" stroke-width="0.5" opacity="0.8"/>
+  <text x="698" y="613" text-anchor="middle" font-family="monospace" font-size="11" fill="#00d4ff">💼 Freelance</text>
+
+  <!-- Animated domain badges glow -->
+  <rect x="618" y="548" width="140" height="32" rx="6" fill="none" stroke="#ff4444" stroke-width="1" opacity="0">
+    <animate attributeName="opacity" values="0;0.4;0" dur="3s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="506" y="592" width="120" height="32" rx="6" fill="none" stroke="#a855f7" stroke-width="1" opacity="0">
+    <animate attributeName="opacity" values="0;0.4;0" dur="2.5s" begin="1s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- ═══ SECTION: TOOLS ═══ -->
+  <text x="40" y="670" class="cat">▸  TOOLS  &amp;  ENVIRONMENT</text>
+  <line x1="248" y1="664" x2="840" y2="664" stroke="#00d4ff" stroke-width="0.3" opacity="0.2"/>
+
+  <text x="40" y="700" font-family="monospace" font-size="12" fill="#c9d1d9">
+    Git  ·  VS Code  ·  FFmpeg  ·  npm  ·  Telegram Bot API  ·  Burp Suite  ·  OWASP ZAP  ·  Playwright  ·  Axios  ·  Cheerio
+  </text>
+
+  <!-- Bottom bar -->
+  <line x1="20" y1="740" x2="840" y2="740" stroke="#00d4ff" stroke-width="0.3" opacity="0.15"/>
+  <text x="430" y="762" text-anchor="middle" font-family="monospace" font-size="10" fill="#3d4a6b">Self-taught · 8+ years · Almaty, Kazakhstan</text>
+
+  <!-- Corner accents -->
+  <polyline points="20,80 20,20 80,20" fill="none" stroke="#00d4ff" stroke-width="1" opacity="0.4"/>
+  <polyline points="780,20 840,20 840,80" fill="none" stroke="#00d4ff" stroke-width="1" opacity="0.4"/>
+  <polyline points="20,740 20,800 80,800" fill="none" stroke="#00d4ff" stroke-width="1" opacity="0.4"/>
+  <polyline points="780,800 840,800 840,740" fill="none" stroke="#00d4ff" stroke-width="1" opacity="0.4"/>
+</svg>
