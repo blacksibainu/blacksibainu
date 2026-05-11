@@ -9,7 +9,7 @@
 <br/><br/>
 
 <img src="https://img.shields.io/badge/Almaty-Kazakhstan-00d4ff?style=for-the-badge&labelColor=0d1117"/>
-<img src="https://img.shields.io/badge/Experience-8+_Years-7b8ab8?style=for-the-badge&labelColor=0d1117"/>
+<img src="https://img.shields.io/badge/Experience-4+_Years-7b8ab8?style=for-the-badge&labelColor=0d1117"/>
 <img src="https://img.shields.io/badge/Status-Open_to_Work-00ff88?style=for-the-badge&labelColor=0d1117"/>
 
 </div>
@@ -25,7 +25,7 @@ const blacksibainu = {
   location   : "Almaty, Kazakhstan",
   role       : "Full-Stack / Bot / Plugin Developer",
   status     : "Student + Freelancer",
-  experience : "8+ years self-taught",
+  experience : "4+ years self-taught",
   languages  : ["Kazakh", "Russian", "English"],
 
   domains: [
@@ -34,10 +34,7 @@ const blacksibainu = {
     "Cybersecurity",         "Telegram Bots",
     "Minecraft Plugins",     "Automation/Parsing",
     "MMO/RPG Systems",       "AI Tools",
-  ],
-
-  philosophy : "If it's worth doing — do it right",
-  funFact    : "Reverse-engineers APIs for breakfast",
+  ]
 };
 ```
 
