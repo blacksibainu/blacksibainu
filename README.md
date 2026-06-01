@@ -18,8 +18,6 @@
 
 ## About Me
 
-<img align="right" width="370" src="https://github-readme-stats.vercel.app/api?username=blacksibainu&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d4ff&icon_color=7b8ab8&text_color=c9d1d9&rank_icon=github" />
-
 ```javascript
 const blacksibainu = {
   location   : "Almaty, Kazakhstan",
