@@ -1,6 +1,6 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0d0d,50:1a1a2e,100:16213e&height=220&section=header&text=sᴇʙᴀsᴛɪᴀɴ&fontSize=70&fontColor=00d4ff&fontAlignY=40&desc=Building%20things%20that%20actually%20work&descAlignY=60&descSize=18&descColor=7b8ab8&animation=fadeIn" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0d0d,50:1a1a2e,100:16213e&height=220&section=header&text=sᴇʙᴀsᴛɪᴀɴ&fontSize=70&fontColor=00d4ff&fontAlignY=40&desc=@blacksibainu&descAlignY=60&descSize=18&descColor=7b8ab8&animation=fadeIn" />
 
 <a href="https://github.com/blacksibainu">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2500&pause=600&color=00D4FF&center=true&vCenter=true&repeat=true&width=700&lines=Full-Stack+Developer;Telegram+Bot+Engineer;Desktop+%26+Mobile+App+Builder;Game+Developer+%E2%80%94+Godot+Engine;Cybersecurity+Enthusiast;Minecraft+Plugin+Developer;Automation+%26+Scraping+Specialist;Self-taught+since+2016" alt="Typing SVG" />
